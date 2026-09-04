@@ -1,0 +1,9 @@
+[out:json][timeout:180];
+(
+  way["aeroway"](48.980,2.495,49.055,2.640);
+  relation["aeroway"](48.980,2.495,49.055,2.640);
+  node["aeroway"="gate"](48.980,2.495,49.055,2.640);
+  node["aeroway"="parking_position"](48.980,2.495,49.055,2.640);
+  way["aeroway"="parking_position"](48.980,2.495,49.055,2.640);
+);
+out geom;
